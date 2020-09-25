@@ -32,6 +32,9 @@ def possible(x, y, n):
 				return False
 	return True
 
+def solved():
+	print('solved: \n')
+
 def solve():
 	for y in range(9):
 		for x in range(9):
@@ -44,5 +47,7 @@ def solve():
 				return
 	refresh()
 
+refresh()
 solve()
+
 
